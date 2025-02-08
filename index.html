@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake ni Ara</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Style */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #fff8f1;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #ff8ba7;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: white;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffd1dc;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: #ffe3e3;
+            color: #ff4b5c;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero .btn {
+            padding: 10px 20px;
+            text-decoration: none;
+            background: #ff8ba7;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .hero .btn:hover {
+            background: #ff4b5c;
+        }
+
+        /* Cupcake Section */
+        .cupcakes {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .cupcakes h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .cupcakes .cupcake-item {
+            margin: 15px 0;
+        }
+        .cupcakes .cupcake-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .cupcakes p {
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background: #ff8ba7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        footer p {
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: #ffd1dc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cupcake ni Ara</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cupcakes">Our Cupcakes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Cupcake ni Ara</h2>
+        <p>Serving happiness one cupcake at a time!</p>
+        <a href="#cupcakes" class="btn">View Our Menu</a>
+    </section>
+
+    <section id="cupcakes" class="cupcakes">
+        <h3>Our Cupcakes</h3>
+        <div class="cupcake-item">
+            <img src="cup.JPG" alt="Vanilla Cupcake">
+            <p>Classic Vanilla Cupcake</p>
+        </div>
+        <div class="cupcake-item">
+            <img src="c.JFIF" alt="Chocolate Cupcake">
+            <p>Rich Chocolate Cupcake</p>
+        </div>
+        <div class="cupcake-item">
+            <img src="redvelvet.jpg" alt="Red Velvet Cupcake">
+            <p>Red Velvet Delight</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Cupcake ni Ara &copy; 2025</p>
+        <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+</body>
+</html>
